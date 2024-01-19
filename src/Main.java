@@ -18,14 +18,14 @@ public class Main {
     public static void main(String[] args) {
         /*
             dans notre  variable nous demandons a l utilisateur d'imprimer a la sortie
-            les nombres en decrimentation( en nombre croissant)
+            les nombres en post-incrimentation( en nombre decroissant)
 
                 */
-        int goldcoins = 0;
-        System.out.println(goldcoins );
-        goldcoins =+10;
-        System.out.println(goldcoins );
-        goldcoins =+100;
-        System.out.println(goldcoins );
+        int nb1 = 1;
+        int nb2 = nb1++;
+
+        System.out.println(nb1);
+
+        System.out.println(nb2 );
     }
 }
