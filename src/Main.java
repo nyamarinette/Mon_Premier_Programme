@@ -11,19 +11,16 @@ je vous présente par la suite quelques noms spécifiques :
  */
 
 /*
-   ici c'est juste un essaye d operateur
-   merci
-nous avons l egalite qui signifie l operateur d'affectaction
-        = affectation
+   ici c'est juste un essaye des varaiables
 
 */
 public class Main {
     public static void main(String[] args) {
-        int age = 24;
-        /* ici nous avons un simple chaine de caractere ecrit avec le signe plus
-        qui signifi la concatenation ( + )
-
+        boolean myvar =true;
+        /*
+    la sortie me donne la confirmation ( le resultat) si l information est juste en donnant une valeur "true"
                 */
-        System.out.println(" Il a " +age+ "ans" );
+
+        System.out.println(myvar );
     }
 }
